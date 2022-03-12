@@ -19,9 +19,9 @@ void p1610(int x, int y)
 }
 int main(void)
 {
-    int n, i, j;
+    int n, i;
     scanf("%d", &n);
-    for (i = 1, j = n; i <= 2 * j - 1; i++)
+    for (i = 1; i <= 2 * n - 1; i++)
         p1610(n, i);
     return 0;
 }
