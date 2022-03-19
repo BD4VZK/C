@@ -5,7 +5,7 @@ int main(void)
 {
     int n, y, m, i, j, cmd, xi, yi;
     cin >> n;
-    std::vector<int> production;
+    vector<int> production;
     for (i = 0; i < n; i++)
     {
         cin >> y;
